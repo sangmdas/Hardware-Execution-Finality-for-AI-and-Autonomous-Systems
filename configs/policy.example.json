@@ -1,0 +1,13 @@
+{
+  "profile": "mcp-refund-production",
+  "allowed_tools": ["customer-payment-api"],
+  "allowed_destinations": ["payments-prod"],
+  "allowed_consequence_classes": ["MCP_CALL"],
+  "allowed_purposes": ["customer-refund"],
+  "max_precision": "EXACT",
+  "max_amount": 500,
+  "cold_path_amount": 250,
+  "require_attestation": true,
+  "require_provenance": true,
+  "max_delegation_depth": 3
+}

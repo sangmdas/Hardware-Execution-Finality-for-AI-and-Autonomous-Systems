@@ -1,0 +1,47 @@
+{
+  "warning": "Software-only reference benchmark. Not a TEE/HSM/GPU/SmartNIC hardware result.",
+  "scope": "PED issue + holder proof-of-possession + independent sink verification + atomic in-memory consume; no network or external effect I/O",
+  "iterations": 5000,
+  "warmup_iterations": 500,
+  "python": "3.13.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "authenticator": "HMAC-SHA-256 reference variant",
+  "replay_store": "in-memory atomic lock",
+  "ped_issue": {
+    "p50_ms": 0.1943,
+    "p95_ms": 0.2339,
+    "p99_ms": 0.3086,
+    "mean_ms": 0.2067,
+    "min_ms": 0.188,
+    "max_ms": 2.9351
+  },
+  "holder_proof": {
+    "p50_ms": 0.0189,
+    "p95_ms": 0.0214,
+    "p99_ms": 0.0414,
+    "mean_ms": 0.0207,
+    "min_ms": 0.0178,
+    "max_ms": 2.2148
+  },
+  "sink_verify_and_consume": {
+    "p50_ms": 0.1701,
+    "p95_ms": 0.2098,
+    "p99_ms": 0.2825,
+    "mean_ms": 0.1812,
+    "min_ms": 0.1647,
+    "max_ms": 3.1286
+  },
+  "total_hot_path": {
+    "p50_ms": 0.3937,
+    "p95_ms": 0.458,
+    "p99_ms": 0.6236,
+    "mean_ms": 0.4085,
+    "min_ms": 0.3738,
+    "max_ms": 3.3413
+  },
+  "reference_ci_target_p95_ms": 5.0,
+  "reference_ci_target_pass": true,
+  "draft_context": "The Internet-Draft describes 1-20 ms as representative industrial hot-path budgets in related implementations, not as a protocol requirement."
+}

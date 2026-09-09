@@ -1,0 +1,34 @@
+from enum import Enum
+
+class EFCode(str, Enum):
+    MALFORMED_ACT = "EF-001"
+    NO_FINALITY_AUTHORITY = "EF-002"
+    INVALID_AUTHORITY = "EF-003"
+    STALE_AUTHORITY = "EF-004"
+    AUTHORITY_ALREADY_USED = "EF-005"
+    REPLAY_DETECTED = "EF-006"
+    NONCE_FAILURE = "EF-007"
+    ACT_MISMATCH = "EF-010"
+    SCOPE_MISMATCH = "EF-012"
+    PURPOSE_MISMATCH = "EF-013"
+    CONSEQUENCE_CLASS_MISMATCH = "EF-014"
+    DESTINATION_MISMATCH = "EF-020"
+    JURISDICTION_MISMATCH = "EF-021"
+    PRECISION_MISMATCH = "EF-023"
+    POLICY_EPOCH_MISMATCH = "EF-030"
+    REVOCATION_STATE_MISMATCH = "EF-031"
+    PROTECTED_STATE_MISMATCH = "EF-032"
+    SINK_MISMATCH = "EF-040"
+    ATTESTATION_FAILURE = "EF-050"
+    INSTRUCTION_PROVENANCE_FAILURE = "EF-053"
+    VALIDATION_TIMEOUT = "EF-060"
+    AUTHORITY_UNCERTAIN = "EF-061"
+    ESCALATION_REQUIRED = "EF-070"
+    HUMAN_REVIEW_REQUIRED = "EF-071"
+    FAIL_CLOSED = "EF-080"
+
+class FinalityDenied(RuntimeError):
+    def __init__(self, code: EFCode, reason: str):
+        self.code = code
+        self.reason = reason
+        super().__init__(f"{code.value} {code.name}: {reason}")

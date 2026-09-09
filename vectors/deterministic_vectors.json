@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "act_type": "MCP_CALL",
+    "agent_id": "enterprise-agent-27",
+    "application_id": "agent-host-1",
+    "arguments": {
+      "amount": 50,
+      "currency": "USD",
+      "customer_id": "18422"
+    },
+    "authority_epoch": 9,
+    "candidate_act_id": "act-0001",
+    "consequence_class": "MCP_CALL",
+    "creation_time": 1700000000.0,
+    "data_precision": "EXACT",
+    "destination_id": "payments-prod",
+    "effectuation_boundary_id": "dispatch-boundary-1",
+    "expiration_time": 1700000010.0,
+    "finality_sink_id": "mcp-dispatcher",
+    "function_or_verb": "issue_refund",
+    "initiator_id": "user-1",
+    "instruction_provenance": "authenticated-support-workflow",
+    "jurisdiction": "US",
+    "mcp_server_id": "payments-mcp-3",
+    "model_id": "model-build-X",
+    "model_or_runtime_state_ref": "runtime-good",
+    "nonce": "nonce-0001",
+    "permitted_scope": {
+      "currency": "USD",
+      "max_amount": 500
+    },
+    "policy_epoch": 481,
+    "protected_state_ref": "state-481-12",
+    "purpose": "customer-refund",
+    "resource_or_data_class": "financial",
+    "revocation_epoch": 12,
+    "tool_id": "customer-payment-api",
+    "version": "1"
+  },
+  "candidate_hmac_sha256": "c406407ffe6ebc97d9b553318696cfc142a72b93a1bb39df57f5187cf3ba305d",
+  "candidate_sha256": "553b24d442bbf2e2bdfd24895bc9ef699d180286ef1c8a81593ea4bb1484284f",
+  "description": "Deterministic canonicalization vector. The HMAC key is public test material and MUST NOT be used in deployment."
+}
