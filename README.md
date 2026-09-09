@@ -128,3 +128,157 @@ docs/             source Internet-Draft + alignment map
 ## Status
 
 Reference implementation for engineering discussion, interoperability testing, adversarial review, and standards-oriented experimentation. It is not an IETF standard or implementation certification.
+
+# LICENSE
+
+## Copyright License — CC BY-NC 4.0
+
+Copyright © 2026 Sangam Das. All rights reserved except as expressly licensed below.
+
+Unless otherwise expressly stated, the documentation, explanatory material, diagrams, test vectors, reference implementation material, and other copyrightable content in this repository are made available under the:
+
+**Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).**
+
+This permits copying, redistribution, adaptation, research, testing, evaluation, citation, and other uses permitted by CC BY-NC 4.0, provided that:
+
+1. appropriate attribution is provided;
+2. the use is non-commercial; and
+3. the applicable CC BY-NC 4.0 terms are complied with.
+
+License text:
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
+---
+
+# Patent Rights
+
+The CC BY-NC 4.0 copyright license does **not** grant any license, covenant, waiver, exhaustion, or other right under any patent or patent application.
+
+Certain architectures, mechanisms, methods, protocol elements, terminology, implementations, or combinations described or demonstrated in this repository may be associated with pending patent applications or other patent rights of Sangam Das, including applications within the DAS Protocols family.
+
+Except for the express standards-related commitment stated below, **all patent rights are reserved**.
+
+Publication of source code, documentation, test vectors, examples, benchmarks, protocol descriptions, Internet-Drafts, research materials, or other material in this repository does not constitute an unrestricted patent license.
+
+---
+
+# IETF Standardization and FRAND Commitment
+
+If a patent claim owned or controlled by Sangam Das becomes **essential to implementation of a specification formally adopted or standardized through the IETF**, such essential patent claim will be made available to implementers of that IETF standard on **Fair, Reasonable and Non-Discriminatory (FRAND) terms**, subject to a separate applicable patent license.
+
+This commitment applies only to patent claims that are actually essential to implementation of the relevant standardized specification.
+
+It does not automatically extend to:
+
+* optional implementations that are not required by the standard;
+* proprietary extensions;
+* non-standardized embodiments;
+* alternative applications of the technology;
+* implementations outside the scope of the standardized specification;
+* claims that can be avoided while still conforming to the standard; or
+* other patent claims that are not essential to implementation of the adopted IETF specification.
+
+Any FRAND patent license may include reasonable terms concerning scope, field of use, reciprocity, defensive suspension, royalties, reporting, sublicensing, assignment, compliance, and other customary licensing provisions, provided that the resulting terms remain fair, reasonable, and non-discriminatory for similarly situated implementers.
+
+---
+
+# No Royalty-Free Commitment Unless Expressly Stated
+
+Nothing in this repository constitutes a commitment to provide patent rights on a royalty-free basis.
+
+**FRAND does not mean royalty-free unless expressly agreed in writing.**
+
+No royalty-free patent license, covenant not to sue, patent non-assertion commitment, or patent waiver arises merely because material is:
+
+* published on GitHub;
+* submitted to the IETF;
+* discussed on an IETF mailing list;
+* included in an Internet-Draft;
+* referenced by an RFC;
+* used in a reference implementation;
+* published through Zenodo or another research repository; or
+* made available under CC BY-NC 4.0.
+
+---
+
+# No Waiver
+
+Nothing in this repository, its publication, distribution, discussion, testing, contribution, standardization activity, or public availability shall be interpreted as:
+
+* a waiver of patent rights;
+* a waiver of pending or future patent claims;
+* an abandonment of intellectual-property rights;
+* an implied patent license;
+* an implied covenant not to sue;
+* a dedication of patent rights to the public;
+* consent to commercial implementation;
+* patent exhaustion beyond that required by applicable law;
+* a waiver of the right to seek royalties or other consideration; or
+* a waiver of any right to enforce patents that are not subject to an applicable standards commitment.
+
+All rights not expressly granted are reserved.
+
+---
+
+# Reference Implementation Does Not Expand the Patent License
+
+The reference implementation is provided to facilitate:
+
+* technical evaluation;
+* interoperability research;
+* protocol experimentation;
+* security analysis;
+* reproducibility;
+* academic and standards-related review; and
+* non-commercial testing.
+
+The availability of executable source code does not enlarge the copyright license or create any patent license beyond the express commitments contained in this notice.
+
+A technically equivalent implementation, reimplementation in another programming language, hardware implementation, firmware implementation, protocol-compatible implementation, clean-room implementation, or independently written implementation may still require a patent license if it practices an applicable patent claim.
+
+---
+
+# Commercial Use
+
+Commercial use of copyrightable material covered by CC BY-NC 4.0 is not authorized by that license.
+
+Organizations seeking:
+
+* commercial implementation rights;
+* production deployment rights;
+* commercial redistribution rights;
+* commercial integration rights; or
+* patent licenses outside an applicable IETF FRAND standards commitment
+
+should obtain a separate written license from the rights holder.
+
+---
+
+# IETF Intellectual Property Procedures
+
+Any disclosure or licensing statement submitted in connection with IETF standardization should be interpreted together with the applicable IETF intellectual-property policies and the specific IETF IPR disclosure made for the relevant contribution.
+
+This repository notice does not replace any disclosure that may be required under applicable IETF procedures.
+
+Where a specific IETF IPR disclosure contains a more specific licensing commitment for a particular patent, application, contribution, or specification, that specific commitment governs to the extent applicable.
+
+---
+
+# No Endorsement or Certification
+
+Publication of this implementation does not imply endorsement, approval, certification, or adoption by the IETF, IESG, IAB, any standards organization, regulator, governmental institution, technology company, or other third party.
+
+---
+
+## Summary
+
+**Copyright:** CC BY-NC 4.0
+**Commercial copyright use:** Separate permission required
+**General patent license:** Not granted
+**IETF-essential patent claims:** Available on FRAND terms if and when applicable
+**Royalty-free commitment:** None unless separately stated in writing
+**Non-essential patent claims:** All rights reserved
+**Implied patent licenses:** None
+**Patent waiver:** None
+
